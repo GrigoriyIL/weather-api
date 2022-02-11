@@ -1,7 +1,7 @@
 # Weather-api
 Rest api that allows you to track the weather for the next few days in Kiev and other cities available in Gismeteo.
 
-The following options are available for the /api/ endpoint:
+The following options are available for the /api/weather endpoint:
 location: city location for example weather-kyiv-4944
 day: number of days, maximum 9, default 3
 
