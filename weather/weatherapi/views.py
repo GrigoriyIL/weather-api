@@ -41,6 +41,7 @@ class WeatherViewSet(viewsets.ModelViewSet):
                     date=item.get("date"), location=item.get("location"),
                     defaults=item,
                     )
+                    
         queryset = self.get_queryset()
         serializer = WeatherSerializer(queryset, many=True)
         return Response(serializer.data)
